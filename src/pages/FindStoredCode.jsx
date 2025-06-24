@@ -24,7 +24,7 @@ function FindStoredCode() {
   return (
     <>
       <div>
-        <div className="my-10">
+        <div className="my-10 min-h-screen">
           <div className="text-center">
             <h1>
               <a href="/">
