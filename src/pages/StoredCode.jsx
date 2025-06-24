@@ -123,7 +123,7 @@ function StoredCode() {
 
           {/* Button Section */}
 
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row gap-y-4 items-center justify-between">
             <div className="text-[10px]">
               <select
                 name=""
