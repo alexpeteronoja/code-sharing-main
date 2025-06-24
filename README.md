@@ -4,7 +4,7 @@ A lightweight code sharing application that lets you save and share code snippet
 
 ## Live Demo
 
-**Demo URL:** [https://code-sharing-delta.vercel.app](https://code-sharing-delta.vercel.app)
+**Demo URL:** [https://code-sharing-main.vercel.app](https://code-sharing-main.vercel.app)
 
 ## Features
 
