@@ -98,7 +98,9 @@ function StoredCode() {
           <p className="mb-10 text-4xl">Your Code easily</p>
         </div>
 
-        <div className="p-5 bg-white rounded-2xl mx-7 md:mx-20 lg:mx-25 ">
+        <div
+          className={`${dark === 'vs' ? 'bg-white' : 'bg-[#1E1E1E]'} p-5 rounded-2xl mx-7 md:mx-20 lg:mx-25 `}
+        >
           <Editor
             language={language}
             height="500px"
