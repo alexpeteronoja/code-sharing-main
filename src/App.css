@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+body {
+    font-family: 'Outfit', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: url('/images/Hero-Background-notecode@2x.png'), linear-gradient( to bottom right, rgba(183, 135, 245, 1), rgba(116, 62, 228, 1));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* display: flex;
+  justify-content: center; */
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/images/down arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    padding-right: 3em;
+}
+
+select option {
+    padding-left: 10px;
+}
+
+@media (width>=64rem) {
+    select {
+        padding-right: 4em;
+    }
+}
